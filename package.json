@@ -1,0 +1,15 @@
+{
+  "name": "x509evdata",
+  "version": "0.0.0",
+  "description": "fetch X.509 EV data",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/x509evdata.js",
+  "license": "MIT",
+  "devDependencies": {
+    "defence-cli": "^1.0.4",
+    "replace-require-self": "^1.0.1"
+  },
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
